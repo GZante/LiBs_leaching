@@ -11,7 +11,7 @@ from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 # Load data from Excel file
 df = pd.read_excel(file_path)
 
-# Filter D values
+# Filter E values
 df_filtered = df[(df['E'] >= 0.1) & (df['E'] <= 0.95)]
 
 # Preprocessing
